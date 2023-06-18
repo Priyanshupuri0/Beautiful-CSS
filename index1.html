@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        .upper {
+            width: 100vw;
+            height: 80vh;
+            background-color: #fdd11e;
+        }
+
+        h1 {
+            position: relative;
+            text-align: center;
+            top: 20%;
+            color: white;
+        }
+
+        .circle {
+            position: relative;
+            top: 25%;
+            left: 47%;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: #b19215;
+        }
+
+        .lower {
+            width: 100%;
+            height: 20%;
+            background-color: #ff555a;
+        }
+
+        .text {
+            position: relative;
+            top: 30%;
+            left: 35%;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            font-size: xx-large;
+            font-weight: bolder;
+            color: #7c660f;
+        }
+
+        .triangle {
+            position: relative;
+            left: 45%;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 50px solid #fdd11e;
+        }
+
+        @media only screen and (max-width: 600px){
+            .circle {
+                left: 35%;
+            }
+            .triangle {
+                left: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <h1>Pinak Idea Lab</h1>
+        <div class="circle"><span class="text">:)</span></div>
+    </div>
+    <div class="lower">
+        <div class="triangle"></div>
+    </div>
+</body>
+
+</html>
